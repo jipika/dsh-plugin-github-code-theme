@@ -1,0 +1,5 @@
+# dsh-plugin-github-code-theme bundle patch: registers the GitHub syntax
+# palette into the Web UI. `name` MUST equal package.json's name.
+- insert:
+    - id: dsh-plugin-github-code-theme
+      name: dsh-plugin-github-code-theme

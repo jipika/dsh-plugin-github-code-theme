@@ -1,0 +1,25 @@
+{
+  "name": "dsh-plugin-github-code-theme",
+  "version": "0.1.0",
+  "description": "GitHub Light / GitHub Dark syntax colors for the DeepSeek Harness (dsh) Web UI — retargets the shell's --shiki-* css-variables theme (used by the sidebar file preview, markdown code blocks, and every shiki-highlighted surface) onto the official github/vscode-github-theme palettes. Light/dark follows the shell's data-ds-dark-theme flag automatically. Pure CSS client plugin.",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  }
+}
