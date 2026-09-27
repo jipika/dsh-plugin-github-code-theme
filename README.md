@@ -1,5 +1,9 @@
 # dsh-plugin-github-code-theme
 
+> **拥有**：11 个 `--shiki-token-*` 变量（GitHub Light / Dark 色板）。
+> **冲突时**：任何其它改 shiki 配色的插件都与此互斥（当前无）；前景/背景保持 `dsw-alias` token，以便与皮肤层共存。
+> **回滚**：从 `dsh.profile.bundles` 去掉 + 重启应用。
+
 把 DSH Web UI 的代码语法配色换成 **GitHub Light / GitHub Dark**（VS Code 的
 github 官方主题色板）。作用于侧边栏文件预览、markdown 代码块、会话里一切
 shiki 高亮面——因为它们共用同一套变量。
