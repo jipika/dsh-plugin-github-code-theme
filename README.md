@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/icon.svg" width="72" alt="dsh-plugin-github-code-theme icon">
+</div>
+
 # dsh-plugin-github-code-theme
 
 > **拥有**：11 个 `--shiki-token-*` 变量 + `dsh-code-nav` 的 24 个 `--cn-*`
