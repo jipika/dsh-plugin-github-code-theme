@@ -72,3 +72,18 @@ body[data-ds-dark-theme]`）覆盖其中 9 个，不需要 `!important`。
 默认全局统一（消息里的代码块也变 GitHub，观感一致）。若只想改文件预览，
 删掉 client.js 里 `--shiki-*` 的两个块，只留 ② ③ 段（它们只作用于
 `.cn-root`）。
+
+---
+
+## ☕ 赞赏支持
+
+如果 dsh-plugin-github-code-theme 对你的研究与测试有所帮助，欢迎请作者喝杯咖啡 ☕
+
+<p align="center">
+  <img src="assets/sponsor.jpg" width="260" alt="微信赞赏码" />
+  <img src="assets/afdian_reward.jpg" width="200" alt="爱发电赞助码" />
+</p>
+
+<p align="center">
+  <b>给项目点个 Star ⭐</b> 同样是对开发者最大的鼓励！
+</p>
